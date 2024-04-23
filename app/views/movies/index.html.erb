@@ -4,6 +4,9 @@
       <div class="greeting">
         <%# <%= link_to "#{current_user.name}さん", "#", class: :greeting__link %>
       </div>
+      <%= month_calendar do |date| %>
+        <%= date %>
+      <% end %>
     <% end %>
   </div>
 </main>
