@@ -1,11 +1,16 @@
 <main class="main">
   <div class="inner">
     <% if user_signed_in? %>
-      <div class="greeting">
-        <%# <%= link_to "#{current_user.name}さん", "#", class: :greeting__link %>
-      </div>
-      <%= month_calendar do |date| %>
-        <%= date %>
+    <div class="new__page">
+      <%= link_to "映画見たよ", new_movie_path, class: :new__btn %>
+    </div>
+      <%= month_calendar(events: @movies) do |date, movies| %>
+        <%= date.day %>
+        <% movies.each do |movie| %>
+          <div>
+            <%= link_to movie.title, movie %>
+          </div>
+        <% end %>
       <% end %>
     <% end %>
   </div>

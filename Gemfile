@@ -75,3 +75,6 @@ gem 'devise'
 gem 'pry-rails'
 gem "simple_calendar"
 gem 'sassc'
+gem 'active_hash'
+gem 'mini_magick'
+gem 'image_processing', '~> 1.2'
