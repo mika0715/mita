@@ -82,7 +82,8 @@ class Theater < ActiveHash::Base
     { id: 80, name: 'TOHOシネマズ南大沢' },
     { id: 81, name: 'イオンシネマ多摩センター' },
     { id: 82, name: 'イオンシネマ日の出' },
-    { id: 83, name: 'シネマネコ' }
+    { id: 83, name: 'シネマネコ' },
+    { id: 84, name: 'その他'}
   ]
 
   include ActiveHash::Associations

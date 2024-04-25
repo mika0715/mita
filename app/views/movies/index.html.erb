@@ -1,7 +1,7 @@
 <main class="main">
   <div class="inner">
     <% if user_signed_in? %>
-    <div class="new__page">
+    <div class="btn-group">
       <%= link_to "映画見たよ", new_movie_path, class: :new__btn %>
     </div>
       <%= month_calendar(events: @movies) do |date, movies| %>

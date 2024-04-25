@@ -1,0 +1,32 @@
+
+<div class="movie-details">
+  <h2>
+    <strong>タイトル:</strong>
+    <%= @movie.title %>
+  </h2>
+  <p>
+    <strong>鑑賞日:</strong>
+    <%= @movie.start_time.strftime("%Y-%m-%d") %>
+  </p>
+  <p>
+    <strong>映画館:</strong>
+    <%= @movie.theater.name %>
+  </p>
+  <p>
+    <strong>使った金額:</strong>
+    <%= @movie.expense %>円
+  </p>
+  <p>
+    <strong>感想・メモ:</strong>
+    <%= @movie.memo %>
+  </p>
+  <% if @movie.image.attached? %>
+    <div class="movie-image-container">
+      <%= image_tag @movie.image.variant(resize: '200x500'), class: 'movie-image' %>
+    </div>
+  <% end %>
+  <div class="btn-group">
+    <%= link_to '編集する', edit_movie_path(@movie), class: :form__btn %>
+    <%= link_to '戻る', root_path, class: :form__btn %>
+  </div>
+</div>
