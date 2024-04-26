@@ -27,6 +27,8 @@
   <% end %>
   <div class="btn-group">
     <%= link_to '編集する', edit_movie_path(@movie), class: :form__btn %>
-    <%= link_to '戻る', root_path, class: :form__btn %>
+    <%= link_to '削除する', movie_path(@movie), data: {turbo_method: :delete}, class: :form__btn %>
   </div>
-</div>
+  <div class="btn--group">
+    <%= link_to '戻る', root_path, class: :return__btn %>
+  </div>

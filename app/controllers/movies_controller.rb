@@ -34,6 +34,14 @@ class MoviesController < ApplicationController
     end
   end
 
+  def destroy
+    if @movie.destroy
+      redirect_to root_path
+    else
+      redirect_to movie_path(@Movie)
+    end
+  end
+
 
   private
 
