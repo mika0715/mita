@@ -1,0 +1,44 @@
+<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">映画鑑賞記録</h2>
+      <%= form_with model: @movie, local: true do |f|%>
+      <%= render 'devise/shared/error_messages', model: f.object %>
+        <div class="field">
+          <%= f.label :title, "タイトル" %><br />
+          <%= f.text_field :title, autofocus: true %>
+        </div>
+
+        <div class="field">
+          <%= f.label :memo, "感想・メモ" %><br />
+          <%= f.text_area :memo %>
+        </div>
+
+        <div class="field">
+          <%= f.label :start_time, "鑑賞日" %><br />
+          <%= f.text_field :start_time, type: "date" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :theater_id, "映画館" %><br />
+          <%= f.collection_select(:theater_id, Theater.all, :id, :name, {}, {class:"select-box", id:"movie-theater"}) %>
+        </div>
+
+        <div class="field">
+          <%= f.label :expense, "使った金額" %><br />
+          <%= f.text_field :expense %>円
+        </div>
+
+        <div class="field">
+          <%= f.label :image, "映画画像" %><br />
+          <%= f.file_field :image %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "編集する", class: :form__btn  %>
+          <%= link_to "戻る", movie_path(@movie), class: :form__btn %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,7 @@
 class MoviesController < ApplicationController
   before_action :authenticate_user!
+  before_action :set_movie, except: [:index, :new, :create]
+
 
   def index
     @movies = Movie.all
@@ -19,7 +21,17 @@ class MoviesController < ApplicationController
   end
 
   def show
-    @movie = Movie.find(params[:id])
+  end
+
+  def edit
+  end
+
+  def update
+    if @movie.update(movie_params)
+      redirect_to movie_path(@movie)
+    else
+      render :edit, status: :unprocessable_entity
+    end
   end
 
 
@@ -27,5 +39,9 @@ class MoviesController < ApplicationController
 
   def movie_params
     params.require(:movie).permit(:title, :memo, :theater_id, :expense, :start_time, :image).merge(user_id: current_user.id)
+  end
+
+  def set_movie
+    @movie = Movie.find(params[:id])
   end
 end
