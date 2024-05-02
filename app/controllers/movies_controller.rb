@@ -1,10 +1,10 @@
 class MoviesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_movie, except: [:index, :new, :create]
-
+  before_action :contributor_confirmation, except: [:index, :new, :create]
 
   def index
-    @movies = Movie.all
+    @movies = current_user.movies
   end
   
   def new
@@ -51,5 +51,11 @@ class MoviesController < ApplicationController
 
   def set_movie
     @movie = Movie.find(params[:id])
+  end
+
+  def contributor_confirmation
+    if current_user != @movie.user
+      redirect_to new_user_session_path
+    end
   end
 end
