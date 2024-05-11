@@ -91,6 +91,10 @@ a {
 
 /* 新規登録・ログイン */
 
+.form__wrapper{
+  text-align: center;
+}
+
 .page-heading {
   font-size: 30px;
   color: #BC8F8F;
@@ -100,7 +104,6 @@ a {
 .field{
   color: #BC8F8F;
   margin: 10px 0;
-  text-align: center;
 }
 .actions{
   margin-bottom: 40px;
