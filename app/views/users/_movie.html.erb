@@ -1,0 +1,9 @@
+<div class="movie">
+  <p class="movie__date">
+    <%= movie.start_time.strftime("%Y-%m-%d") %>
+  </p>
+  <%= link_to image_tag(movie.image.present? ? movie.image : "default_image.jpg", class: :movie__image), movie_path(movie) %>
+  <div class="movie__title">
+    <%= link_to movie.title, movie_path(movie), class: :movie__grp%>
+  </div>
+</div>

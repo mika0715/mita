@@ -95,13 +95,16 @@ a {
   font-size: 30px;
   color: #BC8F8F;
   margin-bottom: 28px;
+  text-align: center;
 }
 .field{
   color: #BC8F8F;
   margin: 10px 0;
+  text-align: center;
 }
 .actions{
   margin-bottom: 40px;
+  text-align: center;
 }
 .form__btn{
   display: inline-block;
@@ -174,4 +177,34 @@ a {
 .return__btn:hover{
   color: #fff;
   background: #BC8F8F;
+}
+
+
+/* ユーザーページ */
+
+.movie{
+  width: calc((100% - 50px) / 4);
+  margin: 0 0 50px 12px;
+}
+
+.user__movie{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  min-height: calc(100vh - 161px);
+}
+
+.movie__image{
+  width: 200px;
+  height: 300px;
+}
+
+.movie__title{
+  width: 200px;
+  height: 50px;
+}
+
+.movie__grp{
+  font-weight: bold;
 }

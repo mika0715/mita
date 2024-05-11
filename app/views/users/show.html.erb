@@ -1,0 +1,13 @@
+<div class="inner">
+  <h2 class="page-heading">
+    <%= "#{@user.name}さんの鑑賞記録"%>
+  </h2>
+  <div class="user__movie">
+    <% @movies.each do |movie| %>
+      <%= render partial: "movie", locals: { movie: movie } %>
+    <% end %>
+  </div>
+  <div class="actions">
+    <%= link_to "戻る", root_path, class: :form__btn %>
+  </div>
+</div>
