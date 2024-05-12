@@ -1,5 +1,7 @@
 # DB 設計
 
+https://gyazo.com/58b7f5997d7df1cd85852d949c6b477e
+
 ## users table
 
 | Column             | Type       | Options                        |
