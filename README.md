@@ -1,6 +1,7 @@
 # DB 設計
 
-https://gyazo.com/58b7f5997d7df1cd85852d949c6b477e
+![58b7f5997d7df1cd85852d949c6b477e](https://github.com/mika0715/mita/assets/162863614/deb93232-91e8-4792-bc6e-8679db66396f)
+
 
 ## users table
 
