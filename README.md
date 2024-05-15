@@ -1,4 +1,21 @@
-# DB 設計
+# アプリケーション名
+
+MITA
+
+# アプリケーション概要
+
+映画鑑賞記録アプリ
+
+# URL
+
+https://mita-4zpg.onrender.com
+
+# テスト用アカウント
+
+メールアドレス：a@a
+パスワード：test1234
+
+# DB設計
 
 ![58b7f5997d7df1cd85852d949c6b477e](https://github.com/mika0715/mita/assets/162863614/deb93232-91e8-4792-bc6e-8679db66396f)
 
