@@ -4,16 +4,19 @@ MITA
 
 # アプリケーション概要
 
-映画鑑賞記録アプリ
+見た映画を記録し、カレンダー上に表示する映画記録アプリ。
 
 # URL
 
 https://mita-4zpg.onrender.com
 
+* Basic認証ID：takahashi  
+* Basic認証パスワード：1234
+
 # テスト用アカウント
 
-メールアドレス：a@a
-パスワード：test1234
+* メールアドレス：a@a  
+* パスワード：test1234
 
 # DB設計
 
