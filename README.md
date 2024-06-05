@@ -15,7 +15,7 @@ https://mita-4zpg.onrender.com
 
 # テスト用アカウント
 
-* メールアドレス：a@a  
+* メールアドレス：test@test  
 * パスワード：test1234
 
 # 利用方法
