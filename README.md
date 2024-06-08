@@ -73,3 +73,20 @@ https://mita-4zpg.onrender.com
 ### Association
 
 * belongs_to :user
+
+# メイン機能についての画像
+
+* ログインページ
+![962bd006ea111dc3cdab9bd55bb23e02](https://github.com/mika0715/mita/assets/162863614/23e74d07-5e8e-456b-85fa-6f22281557a1)
+
+* トップページ
+
+
+* 新規投稿ページ
+
+
+* 映画詳細ページ
+
+
+* マイページ
+
