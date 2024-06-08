@@ -80,7 +80,7 @@ https://mita-4zpg.onrender.com
 ![962bd006ea111dc3cdab9bd55bb23e02](https://github.com/mika0715/mita/assets/162863614/23e74d07-5e8e-456b-85fa-6f22281557a1)
 
 * トップページ
-
+![761621bd274c471841ef8bc4f8813e5e](https://github.com/mika0715/mita/assets/162863614/e934020f-2c63-42d9-865e-42e383e073e3)
 
 * 新規投稿ページ
 
