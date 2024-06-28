@@ -97,3 +97,31 @@ https://mita-4zpg.onrender.com
 
 * 映画鑑賞にかかった金額を月ごとにグラフでマイページに表示
 * 映画検索機能
+
+
+# 開発環境
+
+## フロントエンド
+
+* HTML, CSS
+
+## バックエンド
+
+* Ruby, Ruby on Rails
+
+## データベース
+
+* MySQL（開発環境）
+* PostgreSQL（本番環境）
+
+## データベース管理
+
+* TablePlus
+
+## ソース管理
+
+* GitHub, GitHub Desktop
+
+## デプロイ/運用
+
+* Renderを使用したデプロイメント
