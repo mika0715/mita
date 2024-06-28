@@ -86,7 +86,7 @@ https://mita-4zpg.onrender.com
 ![51626935da698b3a8be61135b02bc9dd](https://github.com/mika0715/mita/assets/162863614/bf8f80a2-d91d-4fc3-a1f8-e0c9c610f22a)
 
 * 映画詳細ページ
-
+![773359ee687242d981892416b7606e27](https://github.com/mika0715/mita/assets/162863614/70c4633a-23c6-463c-b064-12adf1cd45ab)
 
 * マイページ
 
