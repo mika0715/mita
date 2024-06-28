@@ -76,19 +76,19 @@ https://mita-4zpg.onrender.com
 
 # メイン機能についての画像
 
-* ログインページ
+""" * ログインページ
 ![962bd006ea111dc3cdab9bd55bb23e02](https://github.com/mika0715/mita/assets/162863614/23e74d07-5e8e-456b-85fa-6f22281557a1)
 
-* トップページ
+### * トップページ
 ![761621bd274c471841ef8bc4f8813e5e](https://github.com/mika0715/mita/assets/162863614/e934020f-2c63-42d9-865e-42e383e073e3)
 
-* 新規投稿ページ
+### * 新規投稿ページ
 ![51626935da698b3a8be61135b02bc9dd](https://github.com/mika0715/mita/assets/162863614/bf8f80a2-d91d-4fc3-a1f8-e0c9c610f22a)
 
-* 映画詳細ページ
+### * 映画詳細ページ
 ![a9bf76dbd92067d2abcf24e6a31245ee](https://github.com/mika0715/mita/assets/162863614/19b6809c-31ea-4133-ae5a-84b83eb15e2d)
 
 
-* マイページ
+### * マイページ
 ![773359ee687242d981892416b7606e27](https://github.com/mika0715/mita/assets/162863614/70c4633a-23c6-463c-b064-12adf1cd45ab)
 
